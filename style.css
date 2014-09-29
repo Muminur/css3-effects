@@ -1,0 +1,114 @@
+body{
+	background: black;
+	
+}
+h2{
+	color:white;
+}
+ul {
+    list-style: outside none none;
+}
+li {
+    float: left;
+    margin: 30px;
+}
+footer{
+    margin:auto;
+	color:#FAC51C;
+
+}
+a{
+	color:#FF9999;
+
+}
+.img{
+ width:200px;
+ height:200px;
+ border: 10px solid #fff;
+ -webkit-border-radius: 15px;
+ border-radius:15px;
+ overflow:hidden;
+
+}
+.img:hover {
+	cursor: pointer;
+}
+
+
+
+.morph{
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	float:left;
+}
+.morph:hover{
+  border: 10px solid #fff;
+   border-radius: 50%;
+  -webkit-box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+  -moz-box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+  box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+
+
+}
+.zoom img {
+  width: 200px;
+  height: 200px;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  -o-transition: all 2s ease;
+   transition: all 2s ease;
+}
+
+.zoom img:hover {
+  width: 300px;
+  height: 300px;
+  -webkit-box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+  -moz-box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+  box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+}
+.tilt {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+	float:left;
+}
+
+.tilt:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+
+  -webkit-box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+  -moz-box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+   box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+}
+
+
+.extend{
+  width: 200px;
+  height: 200px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	float:left;
+}
+.extend:hover{
+  width: 458px;
+  height: 492px;
+  border: 10px solid #fff;
+  -webkit-box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+  -moz-box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+  box-shadow: 0 0 40px rgba(255,255,255,.6), inset 0 0 40px rgba(255,255,255,1);
+
+
+}
